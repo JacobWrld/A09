@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #800000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation menu */
+#nav_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #800000;
+    text-align: center;
+}
+
+#nav_menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav_menu ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Highlight the current page */
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+/* Submenu styling */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #600000;
+    padding: 10px;
+    text-align: left;
+}
+
+#nav_menu ul li:hover .submenu {
+    display: block;
+}
+
+/* Unordered list formatting */
+.circle-list {
+    list-style-type: circle;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
